@@ -1,0 +1,21 @@
+{
+    "name": "assist.css",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "node index.js"
+    },
+    "main": "styles.css",
+    "style": "styles.css",
+    "files": [
+        "readme.md",
+        "styles.css"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {},
+    "devDependencies": {
+        "dart-sass": "^1.23.7",
+        "sass": "^1.23.7"
+    }
+}

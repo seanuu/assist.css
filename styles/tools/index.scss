@@ -1,0 +1,20 @@
+@import "utilities";
+@import "../settings/index";
+
+@each $key, $utility in $utilities {
+    @include generate-utility($utility);
+}
+
+@each $name, $bezier in $transition {
+    .transition-#{$name} {
+        transition: 0.3s $bezier !important;
+    }
+}
+
+@each $name, $weight in $font-weights {
+    .fw {
+        &-#{$name} {
+            font-weight: $weight !important
+        }
+    }
+}
