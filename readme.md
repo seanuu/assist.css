@@ -1,4 +1,4 @@
-###Spacing
+### Spacing
 
 .{property}{direction}-{size}
 
@@ -37,22 +37,23 @@ The size controls the increment of the property in 4px intervals:
 * n12 - sets negative margin to 48px
 * auto - sets the spacing to auto
 
+---
 
-###Text
+### Text
 Control text alignment, wrapping, overflow, transforms and more.  
 
-####text-align
+#### text-align
 .text-{property}  
 占位符 property 用来设置位置类型：left right center justify start end  
 
-####Text wrapping and overflow
+#### Text wrapping and overflow
 .text-wrap  .text-no-wrap  .text-break  .text-truncate
 
-####text-transform
+#### text-transform
 .text-{property}  
 占位符 property 用来设置 transform 类型：none capitalize lowercase uppercase
 
-####Font weights
+#### Font weights
 .fw-{property}  
 占位符 property 用来设置weight: 
 * 'thin': 100,
@@ -62,35 +63,36 @@ Control text alignment, wrapping, overflow, transforms and more.
 * 'bold': 700,
 * 'black': 900
 
+---
 
-###Flex
+### Flex
 启用弹性盒子相关
 
 * .d-flex
 * .d-inline-flex
 
-####Flex direction
+#### Flex direction
 .flex-{direction} => flex-direction: direction    
 direction: row column row-reverse column-reverse
 
-####Flex justify
+#### Flex justify
 .justify-{property} => justify-content: property   
 property: start end center space-between space-around
 
-####Flex align
+#### Flex align
 .align-{property} => align-items: property  
 property: start end center baseline stretch
 
-####Flex align self
+#### Flex align self
 .align-self-{property}  
 property: auto start end center baseline stretch
 
-####Flex wrap
+#### Flex wrap
 * .flex-nowrap
 * .flex-wrap
 * .flex-wrap-reverse
 
-####Flex order
+#### Flex order
 * .order-first
 * .order-0
 * .order-1
@@ -107,22 +109,26 @@ property: auto start end center baseline stretch
 * .order-12
 * .order-last
 
-####Flex align content
+#### Flex align content
 .align-content-{property} => align-content: property  
 property: start end center space-between space-around stretch
 
-####Flex grow and shrink
+#### Flex grow and shrink
 * .flex-grow-0
 * .flex-grow-1
 * .flex-shrink-0
 * .flex-shrink-1
 
-###Display
+---
+
+### Display
 指定元素的 display 属性  
 .d-{value}  
 value: none inline inline-block block table table-cell table-row flex inline-flex
 
-####Overflow
+---
+
+#### Overflow
 * .overflow-auto
 * .overflow-hidden
 * .overflow-visible
@@ -135,12 +141,16 @@ value: none inline inline-block block table table-cell table-row flex inline-fle
 * .overflow-y-auto
 * .overflow-y-hidden
 
-####Float
+---
+
+#### Float
 * .float-none
 * .float-left
 * .float-right
 
-###Transition
+---
+
+### Transition
 * fade-transition
 * message-transition
 * scale-transition
